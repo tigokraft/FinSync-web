@@ -23,12 +23,6 @@ export default function DownloadPage() {
               >
                 Download for Windows
               </Link>
-              <Link
-                href="https://github.com/tigokraft/PSI1623R_TiagoOliveira_2223234/releases/download/Beta11/FinSync-Setup.msi"
-                className="bg-teal-500 hover:bg-teal-600 text-white font-semibold text-base px-8 py-3 rounded-full transition"
-              >
-                Download for macOS
-              </Link>
             </div>
             <p className="text-gray-400 text-sm">
               Once downloaded, run the installer and follow the prompts to install FinSync on your desktop.

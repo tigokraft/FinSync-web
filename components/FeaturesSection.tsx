@@ -59,18 +59,6 @@ export default function FeaturesSection() {
                 <p className="text-gray-400 text-lg leading-relaxed">
                   {f.description}
                 </p>
-                <a
-                  href="/download"
-                  className="
-                    inline-block
-                    bg-teal-500 hover:bg-teal-600
-                    text-white font-semibold
-                    rounded-full px-8 py-4
-                    transition-shadow
-                  "
-                >
-                  Try it now
-                </a>
               </div>
             </div>
           );
