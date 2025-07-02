@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <Hero />
       <FeaturesSection />
-      <GoalsSection />
+      {/* <GoalsSection /> */}
       <CashFlow />
       <PricingSection />
       <Footer />

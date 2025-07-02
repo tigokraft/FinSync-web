@@ -39,12 +39,16 @@ export default function FeaturesSection() {
               className="flex flex-col lg:flex-row items-center gap-12"
             >
               {/* Image */}
-              <div className={`w-full lg:w-6/12 ${isEven ? 'lg:order-last' : ''}`}>
-                <div className="bg-[#112427] border border-[#1f2025] rounded-2xl shadow-2xl drop-shadow-teal-glow overflow-hidden">
+              <div
+                className={`w-full lg:w-6/12 ${
+                  isEven ? 'lg:order-last' : ''
+                } flex justify-center`}
+              >
+                <div className="rounded-2xl border border-[#1f2025] bg-[#112427] shadow-2xl drop-shadow-teal-glow overflow-visible">
                   <img
                     src={f.img}
                     alt={f.title}
-                    className="w-full h-96 object-cover"
+                    className="block w-auto max-w-full h-auto rounded-2xl"
                   />
                 </div>
               </div>
