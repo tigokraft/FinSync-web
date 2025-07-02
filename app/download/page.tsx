@@ -18,13 +18,13 @@ export default function DownloadPage() {
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-6">
               <Link
-                href="/downloads/FinSyncSetup.exe"
+                href="https://github.com/tigokraft/PSI1623R_TiagoOliveira_2223234/releases/download/Beta11/FinSync-Setup.msi"
                 className="bg-teal-500 hover:bg-teal-600 text-white font-semibold text-base px-8 py-3 rounded-full transition"
               >
                 Download for Windows
               </Link>
               <Link
-                href="/downloads/FinSync.dmg"
+                href="https://github.com/tigokraft/PSI1623R_TiagoOliveira_2223234/releases/download/Beta11/FinSync-Setup.msi"
                 className="bg-teal-500 hover:bg-teal-600 text-white font-semibold text-base px-8 py-3 rounded-full transition"
               >
                 Download for macOS
