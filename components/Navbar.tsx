@@ -1,6 +1,4 @@
-'use client';
-
-import Link from 'next/link';
+use client';
 
 export default function Navbar() {
   return (
@@ -12,30 +10,22 @@ export default function Navbar() {
         {/* Links */}
         <ul className="flex items-center gap-6 md:gap-12 text-base font-medium">
           <li>
-            <Link href="#features" scroll={false}>
-              <a className="text-white hover:text-teal-300 transition">
-                Features
-              </a>
-            </Link>
+            <a href="#features" className="text-white hover:text-teal-300 transition">
+              Features
+            </a>
           </li>
           <li>
-            <Link href="#pricing" scroll={false}>
-              <a className="text-white hover:text-teal-300 transition">
-                Pricing
-              </a>
-            </Link>
+            <a href="#pricing" className="text-white hover:text-teal-300 transition">
+              Pricing
+            </a>
           </li>
           <li>
-            <Link href="/download">
-              <a className="
-                bg-teal-500 hover:bg-teal-600
-                text-white text-base font-semibold
-                px-6 py-2 md:px-8 md:py-3
-                rounded-full transition
-              ">
-                Download
-              </a>
-            </Link>
+            <a
+              href="/download"
+              className="bg-teal-500 hover:bg-teal-600 text-white text-base font-semibold px-6 py-2 md:px-8 md:py-3 rounded-full transition"
+            >
+              Download
+            </a>
           </li>
         </ul>
       </div>
