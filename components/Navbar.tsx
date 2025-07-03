@@ -10,12 +10,12 @@ export default function Navbar() {
         {/* Links */}
         <ul className="flex items-center gap-6 md:gap-12 text-base font-medium">
           <li>
-            <a href="#features" className="text-white hover:text-teal-300 transition">
+            <a href="#features" scroll={false} className="text-white hover:text-teal-300 transition">
               Features
             </a>
           </li>
           <li>
-            <a href="#pricing" className="text-white hover:text-teal-300 transition">
+            <a href="#pricing" scroll={false} className="text-white hover:text-teal-300 transition">
               Pricing
             </a>
           </li>
